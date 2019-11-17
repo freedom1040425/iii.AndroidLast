@@ -10,22 +10,13 @@
     >
 
     <ListView
-        android:id="@+id/item_Title"
+        android:id="@+id/one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Main Page"
+        android:text="介面選單"
+
         >
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="btn1"
-            />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="btn2"
-            />
 
     </ListView>
 

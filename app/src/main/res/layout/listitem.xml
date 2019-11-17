@@ -10,11 +10,10 @@
     >
 
     <ListView
-        android:id="@+id/item_Title"
+        android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="介面選單"
         android:textSize="24sp"
         android:textStyle="bold" />
 

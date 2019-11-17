@@ -11,13 +11,13 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private ListView listView;
-    private ArrayList arrayList;
+    private ListView listView,;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        listView = findViewById(R.id.one);
     }
 
     public void gotoMain(View view) {
