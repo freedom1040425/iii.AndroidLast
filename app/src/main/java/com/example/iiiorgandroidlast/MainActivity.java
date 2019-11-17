@@ -11,7 +11,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private ListView listView,;
+    private ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotoMain(View view) {
-        Intent intent = new Intent(this,listView.class);
+        Intent intent = new Intent(this,item.class);
         startActivity(intent);
     }
 }
