@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotoMain(View view) {
-        Intent intent = new Intent(this,Page2Activity.class);
+        Intent intent = new Intent(this,);
         startActivity(intent);
     }
 }
