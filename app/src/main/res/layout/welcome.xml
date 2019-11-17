@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/images"
     android:onClick="gotoMain"
-    tools:context=".MainActivity"
+    tools:context=".welcome"
     >
 
 

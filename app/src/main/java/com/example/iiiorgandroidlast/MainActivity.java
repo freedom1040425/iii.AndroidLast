@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotoMain(View view) {
-        Intent intent = new Intent(this,);
+        Intent intent = new Intent(this,listView.class);
         startActivity(intent);
     }
 }
